@@ -1,0 +1,251 @@
+import neurokit2 as nk
+from scipy.signal import find_peaks
+import matplotlib.pyplot as plt
+import csv, time, scipy
+import numpy as np
+from scipy.fft import fft, fftfreq
+import pandas as pd
+from scipy.signal import savgol_filter
+import statistics
+from statistics import mean
+import json, math
+from collections import defaultdict
+import pprint
+import seaborn as sns
+from hrvanalysis import get_time_domain_features
+
+# Defining all known constants
+
+rsp_sampling_rate = 100
+ecg_sampling_rate = 1000                              # The ecg, rsp data were approximately sampled at 1000Hz and 100Hz respectively
+rsp_sampling_period = 1/rsp_sampling_rate             # Sampling period / Sampling interval = 1 / Sampling frequency
+ecg_sampling_period = 1/ecg_sampling_rate
+scaling_factor = ecg_sampling_rate/rsp_sampling_rate
+trial_number = '007'
+
+# This function finds the closest number in a list to a given number and returns it
+
+def get_closest_greater_number(my_list,my_number):
+    return min([ i for i in my_list if i >= my_number], key=lambda x:abs(x-my_number))
+
+# This function performs downsampling by a factor of "factor" and returns the resultant downsampled data
+
+def downsampling(samples_list,factor):
+
+    result_list = []
+    counter = 0
+
+    for i in range(len(samples_list)):
+        if(i==counter):
+            result_list.append(samples_list[i])
+            counter += factor
+    
+    return result_list
+
+def upsampling(samples_list,factor):
+    
+    result = []
+
+    for i in range(len(samples_list)-1):
+        
+        diff = (samples_list[i+1] - samples_list[i]) / factor
+
+        for j in range(factor):
+
+            result += [samples_list[i] + j*diff]
+
+    result+=[samples_list[-1]]
+
+    return result 
+
+def RR_list(HR_list):
+
+    rr = []
+    for i in HR_list:
+        rr.append(60000/i)
+    return rr
+
+mat_E = scipy.io.loadmat('PACT_data/'+ trial_number +'E.mat')
+mat_B = scipy.io.loadmat('PACT_data/'+ trial_number +'B.mat')
+
+# Extracting the relevant from the data (ECG signal and RSP signal) and removing first and last 10 seconds data samples
+
+ecg_PACT = mat_E["PACT_ECG"]
+ecg_data = [i[1] for i in ecg_PACT]
+ecg_data = ecg_data[10000:len(ecg_data)-10000]
+
+rsp_PACT = mat_B["PACT_Data_B"]
+rsp_data = [i[0] for i in rsp_PACT]
+rsp_data = rsp_data[1000:len(rsp_data)-1000]
+rsp_data = upsampling(rsp_data,10)
+
+ecg_data = ecg_data[0:len(rsp_data)]
+samples_index = list(range(0,len(ecg_data)))
+
+# R-peak detection in ECG signal
+
+signals, info = nk.ecg_process(ecg_data, sampling_rate=1000)
+rpeaks = info["ECG_R_Peaks"]
+ecg_data_filtered = signals["ECG_Clean"]
+rsp_data_filtered = nk.rsp_clean(rsp_data)
+rsp_data_filtered = savgol_filter(rsp_data_filtered, 700, 3)
+
+rsp_peaks, _ = find_peaks(rsp_data_filtered, distance=2000, width=600)
+rsp_valleys, _ = find_peaks(-1*rsp_data_filtered, distance=2000, width=600)
+
+Inhalation_interval = []
+Exhalation_interval = []
+
+for i in range(len(rsp_valleys)-1): 
+    
+    next_peak = get_closest_greater_number(rsp_peaks,rsp_valleys[i])
+    next_next_valley = get_closest_greater_number(rsp_valleys,next_peak)
+    Inhalation_interval.append([rsp_valleys[i],next_peak])
+    Exhalation_interval.append([next_peak,next_next_valley])
+
+Inhalation_index_range = []
+Exhalation_index_range = []
+
+for i in Inhalation_interval:
+    Inhalation_index_range += list(range(i[0],i[1]))
+
+for i in Exhalation_interval:
+    Exhalation_index_range += list(range(i[0],i[1]))
+
+R_peak_inhale = []
+R_peak_exhale = []
+
+for i in Inhalation_interval:
+    temp = []
+    for j in rpeaks:
+        if(j > i[0] and j < i[1]):
+            temp += [j]
+    R_peak_inhale.append(temp)
+
+for i in Exhalation_interval:
+    temp = []
+    for j in rpeaks:
+        if(j > i[0] and j < i[1]):
+            temp += [j]
+    R_peak_exhale.append(temp)
+
+
+RR_diff_inhale = []
+RR_diff_exhale = []
+
+for i in R_peak_inhale:
+    RR_diff_inhale.append([i[j + 1] - i[j] for j in range(len(i)-1)])
+
+for i in R_peak_exhale:
+    RR_diff_exhale.append([i[j + 1] - i[j] for j in range(len(i)-1)])
+
+
+EI_div_list = []
+
+for i in range(len(RR_diff_inhale)):
+    EI_div_list.append(max(RR_diff_exhale[i])/min(RR_diff_inhale[i]))
+
+EI_div_mean = np.average(EI_div_list)
+EI_div_std = np.std(EI_div_list)
+
+# print("E/I Result : " + str(EI_div_mean) + " +/- " + str(EI_div_std))
+
+HR_inhale = []
+HR_exhale = []
+EI_diff_median = []
+EI_diff_mean = []
+
+for i in RR_diff_inhale:
+    temp = []
+    for j in i:
+        temp.append(60000/j)
+    HR_inhale.append(temp)
+
+for i in RR_diff_exhale:
+    temp = []
+    for j in i:
+        temp.append(60000/j)
+    HR_exhale.append(temp)
+
+
+i = '007'
+
+with open("E4_data/" + i +"/BVP.csv",newline='') as f:
+    csvread = csv.reader(f)
+    batch_data = list(csvread)
+
+BVP = ([i[0] for i in batch_data])
+BVP = BVP[10:len(BVP)-10]
+BVP_data = [float(i) for i in BVP]
+
+with open("E4_data/" + i +"/HR.csv",newline='') as f:
+    csvread = csv.reader(f)
+    batch_data = list(csvread)
+
+HR = ([i[0] for i in batch_data])
+HR = HR[10:len(HR)-10]
+HR_data = [float(i) for i in HR]
+
+with open("E4_data/" + i +"/EDA.csv",newline='') as f:
+    csvread = csv.reader(f)
+    batch_data = list(csvread)
+
+EDA = ([i[0] for i in batch_data])
+EDA = EDA[10:len(EDA)-10]
+EDA_data = [float(i) for i in EDA]
+
+with open("E4_data/" + i +"/IBI.csv",newline='') as f:
+    csvread = csv.reader(f)
+    batch_data = list(csvread)
+
+IBI = ([i[0] for i in batch_data])
+IBI = IBI[10:len(IBI)-10]
+IBI_data = [float(i) for i in IBI]
+
+print("Average HR value as per the E4 device : ",np.mean(HR_data))
+#print(HR_inhale)
+
+HR_values = []
+
+for i in HR_inhale:
+
+    HR_values.extend(i)
+
+for j in HR_exhale:
+
+    HR_values.extend(j)
+
+print("Average HR value as per the PACT device : ",np.mean(HR_values))
+
+print("The number of heartbeats as per E4 : ", len(HR_data))
+print("The number of heartbeats as per PACT : ", len(HR_values))
+
+RR_E4 = RR_list(HR_data)
+RR_PACT = RR_list(HR_values)
+
+print("E4 SDNN : ", np.std(RR_E4))
+print("PACT SDNN : ", np.std(RR_PACT))
+
+print("E4 RMSSD : ", np.sqrt(np.mean(np.square(np.diff(RR_E4)))))
+print("PACT RMSSD : ", np.sqrt(np.mean(np.square(np.diff(RR_PACT)))))
+
+sns.displot(HR_data)
+plt.savefig('E4_HR.png')
+
+sns.displot(HR_values)
+plt.savefig('PACT_HR.png')
+
+sns.displot(RR_E4)
+plt.savefig('E4_RR.png')
+
+sns.displot(RR_PACT)
+plt.savefig('PACT_RR.png')
+
+
+time_domain_features_PACT = get_time_domain_features(RR_PACT)
+time_domain_features_E4 = get_time_domain_features(RR_E4)
+
+print("The time domain features as per the PACT device : ")
+print(time_domain_features_PACT)
+print("The time domain features as per the E4 device : ")
+print(time_domain_features_E4)
