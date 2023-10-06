@@ -1,0 +1,724 @@
+Electrode Number : All
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 1
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 2
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.5
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 3
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 4
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 5
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 6
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.3333333333333333
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 7
+
+--> Model : Logistic Regression (LOOCV) :  1.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.16666666666666666
+--> Model : Random Forest (LOOCV) :  0.16666666666666666
+
+
+Electrode Number : 8
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 9
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 10
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  0.6666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 11
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.16666666666666666
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 12
+
+--> Model : Logistic Regression (LOOCV) :  0.16666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.16666666666666666
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.16666666666666666
+--> Model : Random Forest (LOOCV) :  0.16666666666666666
+
+
+Electrode Number : 13
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.3333333333333333
+--> Model : Kernel SVM (LOOCV) :  0.8333333333333334
+--> Model : Naive Bayes (LOOCV) :  0.16666666666666666
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 14
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 15
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.3333333333333333
+
+
+Electrode Number : 16
+
+--> Model : Logistic Regression (LOOCV) :  1.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 17
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 18
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 19
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.5
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 20
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 21
+
+--> Model : Logistic Regression (LOOCV) :  0.3333333333333333
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.16666666666666666
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.5
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 22
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 23
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 24
+
+--> Model : Logistic Regression (LOOCV) :  0.3333333333333333
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.3333333333333333
+
+
+Electrode Number : 25
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 26
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 27
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.3333333333333333
+--> Model : Kernel SVM (LOOCV) :  0.6666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 28
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.3333333333333333
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 29
+
+--> Model : Logistic Regression (LOOCV) :  0.16666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.16666666666666666
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.16666666666666666
+--> Model : Random Forest (LOOCV) :  0.3333333333333333
+
+
+Electrode Number : 30
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 31
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 32
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 33
+
+--> Model : Logistic Regression (LOOCV) :  1.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  0.5
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 34
+
+--> Model : Logistic Regression (LOOCV) :  0.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.3333333333333333
+--> Model : Kernel SVM (LOOCV) :  0.3333333333333333
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.0
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 35
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.3333333333333333
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 36
+
+--> Model : Logistic Regression (LOOCV) :  0.3333333333333333
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.0
+--> Model : Kernel SVM (LOOCV) :  0.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.16666666666666666
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 37
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 38
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 39
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.16666666666666666
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 40
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 41
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 42
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 43
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 44
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.5
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 45
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 46
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 47
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 48
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.5
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 49
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.0
+--> Model : Random Forest (LOOCV) :  0.3333333333333333
+
+
+Electrode Number : 50
+
+--> Model : Logistic Regression (LOOCV) :  1.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.16666666666666666
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 51
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.5
+--> Model : Random Forest (LOOCV) :  0.5
+
+
+Electrode Number : 52
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.6666666666666666
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 53
+
+--> Model : Logistic Regression (LOOCV) :  0.16666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.16666666666666666
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.3333333333333333
+
+
+Electrode Number : 54
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 55
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.5
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 56
+
+--> Model : Logistic Regression (LOOCV) :  1.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 57
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.3333333333333333
+--> Model : Random Forest (LOOCV) :  0.0
+
+
+Electrode Number : 58
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  1.0
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 59
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  1.0
+
+
+Electrode Number : 60
+
+--> Model : Logistic Regression (LOOCV) :  0.5
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  0.16666666666666666
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.5
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 61
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.8333333333333334
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 62
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.8333333333333334
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.8333333333333334
+
+
+Electrode Number : 63
+
+--> Model : Logistic Regression (LOOCV) :  0.8333333333333334
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.6666666666666666
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.8333333333333334
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 64
+
+--> Model : Logistic Regression (LOOCV) :  0.6666666666666666
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  1.0
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  1.0
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.6666666666666666
+
+
+Electrode Number : 66
+
+--> Model : Logistic Regression (LOOCV) :  1.0
+--> Model : XG Boost (LOOCV) :  1.0
+--> Model : KNN (LOOCV) :  0.5
+--> Model : Kernel SVM (LOOCV) :  1.0
+--> Model : Naive Bayes (LOOCV) :  0.3333333333333333
+--> Model : Decision Trees (LOOCV) :  0.6666666666666666
+--> Model : Random Forest (LOOCV) :  0.5
